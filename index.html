@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Dashboard</h2>
+    <a href="#" class="active" onclick="showSection('overview')">Overview</a>
+    <a href="#" onclick="showSection('reports')">Reports</a>
+    <a href="#" onclick="showSection('analytics')">Analytics</a>
+    <a href="#" onclick="showSection('settings')">Settings</a>
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider round"></span>
+      </label>
+      <span class="toggle-text">Dark Mode</span>
+    </div>
+  </div>
+
+  <div class="main">
+    <div id="overview" class="section active">
+      <h1>Overview</h1>
+      <div class="cards">
+        <div class="card">Users<br><b>1,024</b></div>
+        <div class="card">Sales<br><b>$7,530</b></div>
+        <div class="card">Orders<br><b>389</b></div>
+      </div>
+    </div>
+
+    <div id="reports" class="section">
+      <h1>Reports</h1>
+      <p>Here you can see detailed reports.</p>
+    </div>
+
+    <div id="analytics" class="section">
+      <h1>Analytics</h1>
+      <input type="file" id="fileInput" accept=".csv">
+      <canvas id="analyticsChart"></canvas>
+      <form id="dataForm">
+        <input type="number" id="salesInput" placeholder="Enter Sales">
+        <input type="number" id="ordersInput" placeholder="Enter Orders">
+        <button type="submit">Update Chart</button>
+      </form>
+    </div>
+
+    <div id="settings" class="section">
+      <h1>Settings</h1>
+      <p>Customize your dashboard here.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
