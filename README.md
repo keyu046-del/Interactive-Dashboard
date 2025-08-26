@@ -16,9 +16,9 @@ Dashboard (Light Mode)
 
 Dashboard (Dark Mode)
 
-🛠️ Tech Stack
+Languages
 
-- HTML5
-- CSS3 (Flexbox, Responsive Design)
-- JavaScript (Vanilla)
+- HTML
+- CSS (Flexbox, Responsive Design)
+- JavaScript
 - Chart.js
