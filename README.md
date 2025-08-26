@@ -6,7 +6,7 @@ This project allows users to view **overview cards, reports, analytics charts, a
 
 ## 🚀 Features
 - 📌 Sidebar navigation (Overview, Reports, Analytics, Settings)  
-- 📊 Dynamic **Analytics chart** using Chart.js  
+- 📊 Dynamic **Analytics chart** using Chart.js 
 - 📂 Upload CSV to update chart data  
 - 📝 Manual data entry for Sales & Orders  
 - 🌙 **Dark / Light Mode** with smooth toggle  
