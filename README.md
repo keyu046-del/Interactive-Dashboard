@@ -9,7 +9,7 @@ This project allows users to view **overview cards, reports, analytics charts, a
 - 📊 Dynamic **Analytics chart** using Chart.js 
 - 📂 Upload CSV to update chart data  
 - 📝 Manual data entry for Sales & Orders  
-- 🌙 **Dark / Light Mode** with smooth toggle  
+- 🌙 Dark / Light Mode with smooth toggle  
 - 💻 Responsive and clean design  
 
 Dashboard (Light Mode)
